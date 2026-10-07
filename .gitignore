@@ -1,0 +1,10 @@
+# 배포 파일은 MEGA/Releases로
+배포/*.zip
+배포/*.exe
+재정리/
+*.zip
+game_path.txt
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc

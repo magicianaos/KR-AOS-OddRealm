@@ -1,0 +1,31 @@
+import tt
+from tmpfont import N,STR,PPTR,VEC,F,I,B
+def V2(name): return N("Vector2",name,False,[F("x"),F("y")])
+ROOT=N("MonoBehaviour","Base",False,[
+ PPTR("GameObject","m_GameObject"),N("UInt8","m_Enabled",True),PPTR("MonoScript","m_Script"),STR("m_Name"),
+ STR("assetVersion"),
+ I("m_TextWrappingMode"),
+ B("m_enableKerning"),
+ VEC("m_ActiveFontFeatures",I("data")),
+ B("m_enableExtraPadding"),B("m_enableTintAllSprites"),B("m_enableParseEscapeCharacters"),
+ B("m_EnableRaycastTarget"),B("m_GetFontFeaturesAtRuntime"),
+ I("m_missingGlyphCharacter"),
+ B("m_ClearDynamicDataOnBuild"),
+ B("m_warningsDisabled"),
+ PPTR("MonoBehaviour","m_defaultFontAsset"),STR("m_defaultFontAssetPath"),
+ F("m_defaultFontSize"),F("m_defaultAutoSizeMinRatio"),F("m_defaultAutoSizeMaxRatio"),
+ V2("m_defaultTextMeshProTextContainerSize"),V2("m_defaultTextMeshProUITextContainerSize"),
+ B("m_autoSizeTextContainer"),B("m_IsTextObjectScaleStatic"),
+ VEC("m_fallbackFontAssets",PPTR("MonoBehaviour","data")),
+ B("m_matchMaterialPreset"),
+ B("m_HideSubTextObjects"),
+ PPTR("MonoBehaviour","m_defaultSpriteAsset"),STR("m_defaultSpriteAssetPath"),
+ B("m_enableEmojiSupport"),
+ N("unsigned int","m_MissingCharacterSpriteUnicode"),
+ VEC("m_EmojiFallbackTextAssets",PPTR("MonoBehaviour","data")),
+ STR("m_defaultColorGradientPresetsPath"),
+ PPTR("MonoBehaviour","m_defaultStyleSheet"),
+ STR("m_StyleSheetsResourcePath"),
+ PPTR("TextAsset","m_leadingCharacters"),PPTR("TextAsset","m_followingCharacters"),
+ B("m_UseModernHangulLineBreakingRules"),
+])
