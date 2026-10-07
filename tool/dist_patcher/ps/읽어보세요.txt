@@ -140,7 +140,8 @@
 
 ■ 문의 / 오역 제보
 
-  제작: (제작자 표기 자리)
+  GitHub Issues: https://github.com/magicianaos/KR-AOS-OddRealm/issues
+  제작: AOS
 
 
 ================================================================

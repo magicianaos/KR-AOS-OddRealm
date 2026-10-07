@@ -1,4 +1,4 @@
-# 배포 파일은 MEGA/Releases로
+# 배포 파일(zip/exe)은 저장소에 넣지 않고 GitHub Releases로 올립니다
 배포/*.zip
 배포/*.exe
 재정리/
